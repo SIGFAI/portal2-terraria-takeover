@@ -1,0 +1,1 @@
+Copy this mod's files into a new folder called sigf inside your Portal 2 install, together with the kit's game folder files, then start Portal 2 with -game sigf +sv_cheats 1 +map sp_a2_catapult_intro. Slimes and bosses start coming right away.

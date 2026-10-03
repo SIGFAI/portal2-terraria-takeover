@@ -1,0 +1,5 @@
+Terraria Takeover clip: moments the demo must show, in order
+[x] 1. (0-8 s) Blue and green slimes hop down the chamber, a Demon Eye floats in; thrown dirt, stone and sand blocks hit them with red damage numbers, blood and gel splats and pixel hearts.
+[x] 2. (9-13 s) Portal shot: two real floor portals open, blocks fall into the one near the player and shoot out of the other under a slime (Portal 2 physics, speed kept).
+[x] 3. (14-33 s) King Slime awakens: huge crowned slime, boss bar, dynamite block explosion, slimes split off, defeat message and heart drops.
+[x] 4. (34-58 s) Eye of Cthulhu arrives with its roar message, dashes at the player, turns enraged at half health, summons Demon Eyes and dies in an explosion.
