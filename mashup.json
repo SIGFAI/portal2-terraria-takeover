@@ -1,0 +1,624 @@
+{
+  "id": "sigf/portal2-terraria-takeover",
+  "version": "1.0.0",
+  "name": "Terraria Takeover",
+  "tagline": "Bring Terraria into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "kind": "mashup",
+  "games": [
+    {
+      "game": "portal2",
+      "role": "host",
+      "engine": "Portal 2 (Source, 32 bits) + VScript (Squirrel 2.2)",
+      "apps": {
+        "steam": "620"
+      }
+    },
+    {
+      "game": "terraria",
+      "role": "guest",
+      "label": "Terraria"
+    }
+  ],
+  "requires": [],
+  "install": [
+    {
+      "game": "portal2",
+      "strategy": "args",
+      "files": [
+        {
+          "src": "portal2-terraria-takeover.zip",
+          "dst": "{game}/sigf_terraria_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "materials/sigf/crit10.vtf",
+              "sha256": "e13fa523d60d589673f2c3f957292d606f6f7d167dcb886baf49994e59d092de"
+            },
+            {
+              "path": "materials/sigf/crit11.vtf",
+              "sha256": "2d88e9482d2b07cd54375c6d5505cbe5387a2f964e68735c4f1c47d405a2b76a"
+            },
+            {
+              "path": "materials/sigf/crit12.vtf",
+              "sha256": "f6fc07f3cfc8a366933f79fcb9281a777b8a800d12a29918a8066c93db9e6f9e"
+            },
+            {
+              "path": "materials/sigf/crit13.vtf",
+              "sha256": "823e2d9ea8c42d1fbe7a6b2934c508daf2e36e441797047d0ea874bd8b65d360"
+            },
+            {
+              "path": "materials/sigf/crit14.vtf",
+              "sha256": "e19c70e146172b4ec9063c6c2734ff0b2188f54b181b6df9f91ff4701156b9a2"
+            },
+            {
+              "path": "materials/sigf/crit15.vtf",
+              "sha256": "7643982732e8df8a33518f7aba33324ff0f98a9ed804a3765654eeab861cfc3e"
+            },
+            {
+              "path": "materials/sigf/crit16.vtf",
+              "sha256": "6e7f59924d6e05b5f662e51a07c6bf9e8af008fb7ad840bb851a50f98909c8d4"
+            },
+            {
+              "path": "materials/sigf/crit17.vtf",
+              "sha256": "96385cca85c6c179e220f0a4430b6bf61f84dd7c14fe756b56ae1a84f92d4b85"
+            },
+            {
+              "path": "materials/sigf/crit18.vtf",
+              "sha256": "aed2096857f6762aba497a060a81d6ad686b861369de40406521ce8fe0e81522"
+            },
+            {
+              "path": "materials/sigf/crit19.vtf",
+              "sha256": "b9deed3d49b88bea1839ac6512072c64512a059c8d3d583e932fcb43cb07f66b"
+            },
+            {
+              "path": "materials/sigf/crit20.vtf",
+              "sha256": "7b45e42f80d6dc17f3daa7c35168dbd9f63481d9de4e38438fc1fd8beb3fbfe4"
+            },
+            {
+              "path": "materials/sigf/crit21.vtf",
+              "sha256": "cce9a187237d885b384ad16f667d7a73c7bbdb41f4881836102b254d5f16f917"
+            },
+            {
+              "path": "materials/sigf/crit22.vtf",
+              "sha256": "cf9e2752a733a5153a7343695ce9f4c521b5c924ccca46c93183a9ba9b461f69"
+            },
+            {
+              "path": "materials/sigf/crit23.vtf",
+              "sha256": "d65a6cb75cdb7325868e23e0f52b96a961f55d9f2af90ad199f0e2a0f33c4a70"
+            },
+            {
+              "path": "materials/sigf/crit24.vtf",
+              "sha256": "b3f31af2941d0118b674dc4ba78c828a896dceead2f91b3573863b40439bc9fc"
+            },
+            {
+              "path": "materials/sigf/crit25.vtf",
+              "sha256": "23b048e50cf21a1a8e4bcf9d0ce1630e48b8532d72bb2f8eae9c9c90092f1a74"
+            },
+            {
+              "path": "materials/sigf/crit26.vtf",
+              "sha256": "8471945abe9bd928ffc3beb4595efd41809b4cd79ebeac3079af06561f5f296c"
+            },
+            {
+              "path": "materials/sigf/crit27.vtf",
+              "sha256": "661270382c3d4497d1d16e2046ba7cd155b6aa1144f8e76b211be8b224ba52eb"
+            },
+            {
+              "path": "materials/sigf/crit28.vtf",
+              "sha256": "33a1e46b095af59871f256d98516bd735106c5c06354fd5f395d7cca991a9e4b"
+            },
+            {
+              "path": "materials/sigf/crit29.vtf",
+              "sha256": "9207097d25a6bb0143abfe09664e2f7ac306ec64424f49ce5876e452d802059f"
+            },
+            {
+              "path": "materials/sigf/crit30.vtf",
+              "sha256": "8a24f48857ebfa3957982ef539a17919cfdb01d53f928678d32ae8cf2b6d2692"
+            },
+            {
+              "path": "materials/sigf/dmg10.vtf",
+              "sha256": "30c36fd04b5be64d4290b7489a9cd3a1d909b46f2880c86985a577253e3a0261"
+            },
+            {
+              "path": "materials/sigf/dmg11.vtf",
+              "sha256": "73b9d54c755f8a82d09f0140b8866472c69e46e303e877910b9d1325c0aa77c1"
+            },
+            {
+              "path": "materials/sigf/dmg12.vtf",
+              "sha256": "b0bca175bc0e0a0216c976fda4c672bb893e22945bba0f700c9d59ff2f37dcef"
+            },
+            {
+              "path": "materials/sigf/dmg13.vtf",
+              "sha256": "134ee404c2fd4b3c9385be7d0f50c65395885fab7d70bc39409b4686c2e2ab4b"
+            },
+            {
+              "path": "materials/sigf/dmg14.vtf",
+              "sha256": "2754405ae88d7fd7f74ff2dc7290b21e4205a6db04f626e1695a733554aaefc2"
+            },
+            {
+              "path": "materials/sigf/dmg15.vtf",
+              "sha256": "5427c81e7aff27e9042fe424153c81703397cb82980bf6776ab3ee946e48f2c2"
+            },
+            {
+              "path": "materials/sigf/dmg16.vtf",
+              "sha256": "181b40f5ca4fe39ea49d2b4ef19a30eeb35b0461e7073ef8a2f6814d4eac1190"
+            },
+            {
+              "path": "materials/sigf/dmg17.vtf",
+              "sha256": "bf32be6e7df59d47ae0c899797e001ada54334ba9e6d7335d4a374c2162c5523"
+            },
+            {
+              "path": "materials/sigf/dmg18.vtf",
+              "sha256": "95d84048328b8c0dab6bc2a77e49db156892c84c4f0e5af2df46ddcddb3acc38"
+            },
+            {
+              "path": "materials/sigf/dmg19.vtf",
+              "sha256": "a26d5c1614a9a7d8019a4cc3787f2f4492f09c1e1adfcac71fc45b5c6a406e18"
+            },
+            {
+              "path": "materials/sigf/dmg20.vtf",
+              "sha256": "f45d7d02e174444dd8846ed168403c510d7d6662d4bdfb1457eadbf388bb65f7"
+            },
+            {
+              "path": "materials/sigf/dmg21.vtf",
+              "sha256": "cc6fce26d998bc8555923b3a8a423671f153273735cbb182c3fec2a5e13ea927"
+            },
+            {
+              "path": "materials/sigf/dmg22.vtf",
+              "sha256": "6235863ddff22a70d35a38fd097dd8c22ed626753dba321ebfae521740565b37"
+            },
+            {
+              "path": "materials/sigf/dmg23.vtf",
+              "sha256": "9a1f2d37bbfa7f020596ec483cfc21f55b2699bbbd495f4e9c9202a2f97062f7"
+            },
+            {
+              "path": "materials/sigf/dmg24.vtf",
+              "sha256": "3a90c722dcfdb24c3df99e9160708d76833148fc2f3b1c95e88a9a60a584c25f"
+            },
+            {
+              "path": "materials/sigf/dmg25.vtf",
+              "sha256": "446a2e4e11cf3e787ba04a100ae8e1674b73a538930370737c9f6c24f142f479"
+            },
+            {
+              "path": "materials/sigf/dmg26.vtf",
+              "sha256": "4545a1abb17c4e1ac3468365171c179e1c64f803f0a079d34540b912594887d2"
+            },
+            {
+              "path": "materials/sigf/dmg27.vtf",
+              "sha256": "9b7f4f6645a2495d720df746d4301b741b37351396d336e90a7a7a611c177e00"
+            },
+            {
+              "path": "materials/sigf/dmg28.vtf",
+              "sha256": "aa2c311dd219894c591c8b5b053512974c79c31febf65e3130db42a7a590763e"
+            },
+            {
+              "path": "materials/sigf/dmg29.vtf",
+              "sha256": "ffcee9d1d5132ccab059fb6229a2c0247beb45d11692deefa9960e09234dee57"
+            },
+            {
+              "path": "materials/sigf/dmg30.vtf",
+              "sha256": "1ef0814efbecb093d165c1f11afe96f838ee60de337b8e9b47021a8b9dc067e7"
+            },
+            {
+              "path": "materials/sigf/dmg5.vtf",
+              "sha256": "eea7ac1fe1597b274798e88d14766cb324aa64418b2de2221fd1c71fae44de7d"
+            },
+            {
+              "path": "materials/sigf/dmg6.vtf",
+              "sha256": "b76f861922d0418b22fe2b4919e9d8a55f29d9aa5ebb328b6b0640f2e6cb27be"
+            },
+            {
+              "path": "materials/sigf/dmg7.vtf",
+              "sha256": "507bd848b534cdec7995b2251216c8adaee3f23bc5c71a2b6e2d75aa9ce6a803"
+            },
+            {
+              "path": "materials/sigf/dmg8.vtf",
+              "sha256": "01fe27a9ace5263c42594fcb0c3ebf7483c225f445814a642b7e4efe472848ae"
+            },
+            {
+              "path": "materials/sigf/dmg9.vtf",
+              "sha256": "c560495eb1852240f6c9eab8e0628388337f78843d90319ef903b0ff33606597"
+            },
+            {
+              "path": "materials/sigf/flame.vmt",
+              "sha256": "dff0d8b747672a758ed690d61d12190752845271d162fd4a180f2a321e47c66c"
+            },
+            {
+              "path": "materials/sigf/flame.vtf",
+              "sha256": "ee03608d61a62aae02c6d449bc4617fa42e324e4475bc5db2337767e0ac23b64"
+            },
+            {
+              "path": "materials/sigf/heart.vmt",
+              "sha256": "c8ad81e008c5f8553b200183a0870aae7dd6f6fbcea64bd95591ca71ca2187fa"
+            },
+            {
+              "path": "materials/sigf/heart.vtf",
+              "sha256": "c094d6be77bcc80c620c2a212d29df69c652c00b7b34c83d08c5afd1db27aea7"
+            },
+            {
+              "path": "materials/sigf/p_blood.vmt",
+              "sha256": "8a497970bb2bd284ecc8bd4f1f620a31084366026af207d83f1aca1b91eafcaa"
+            },
+            {
+              "path": "materials/sigf/p_blood.vtf",
+              "sha256": "98d4397e4d13d71c4123908afe7f99526cafe9187ea5595f3d8f86dc536576f6"
+            },
+            {
+              "path": "materials/sigf/p_crit10.vmt",
+              "sha256": "a782bf6bcac0b72889eaf8e4c4cd2cd7ce2ec2c44bd5f63fdf582edc32b453e3"
+            },
+            {
+              "path": "materials/sigf/p_crit11.vmt",
+              "sha256": "ff1f3ec9f5dc416cf76441a1275447e9177b590d7d1202c89608b605d5ad4568"
+            },
+            {
+              "path": "materials/sigf/p_crit12.vmt",
+              "sha256": "067466d6d495ed5cfc0272ebf6953e21ed51b37cd3d9108090e8522a23864406"
+            },
+            {
+              "path": "materials/sigf/p_crit13.vmt",
+              "sha256": "0efac8c5cd0aeeb254bb6176531ee4c4adacacd1174446374dea5d50d39ea7ee"
+            },
+            {
+              "path": "materials/sigf/p_crit14.vmt",
+              "sha256": "ecbb975d10d428215bf06bed313cd7cbab0b20f7d8ff2604990a532a3bec6174"
+            },
+            {
+              "path": "materials/sigf/p_crit15.vmt",
+              "sha256": "8eeda8a3550cef390926fa79bf6350cefa723aee339e7c9775c454f865875e2a"
+            },
+            {
+              "path": "materials/sigf/p_crit16.vmt",
+              "sha256": "a113b73bdfe867291a6e64fa0017585dffa32e7a844f425ab1d1d0f32350c835"
+            },
+            {
+              "path": "materials/sigf/p_crit17.vmt",
+              "sha256": "776de04c7fbfb68027cba14af729aeb9a7a5b6120ba8b1ec5b4a622054d8ed5f"
+            },
+            {
+              "path": "materials/sigf/p_crit18.vmt",
+              "sha256": "f2c75672703661f98b42092cc456dc99b2ed827a2e3c393fe69c9c5140ce94a9"
+            },
+            {
+              "path": "materials/sigf/p_crit19.vmt",
+              "sha256": "61dcf0fcb9e661de87f7634a4253c16aeb30050ebf6b42aee766aed0a5a564a2"
+            },
+            {
+              "path": "materials/sigf/p_crit20.vmt",
+              "sha256": "a5b5b58551c1674b49ea16d5166cb42ad4b8bb8d4699d0d07ba75414abc055b3"
+            },
+            {
+              "path": "materials/sigf/p_crit21.vmt",
+              "sha256": "82811187b5e3789b9e96ee50781f3a8ff0de84d04ff2dd363b9d4c1b83a2d88e"
+            },
+            {
+              "path": "materials/sigf/p_crit22.vmt",
+              "sha256": "52fe75bdc2d4b3087b8dc0037159044b0d5e3939152e57602773b226f3b1a6a9"
+            },
+            {
+              "path": "materials/sigf/p_crit23.vmt",
+              "sha256": "f42d5659c2f717a24b9289d6a9e11d8e3b1ff8b79b52e4332db7fef1442580cc"
+            },
+            {
+              "path": "materials/sigf/p_crit24.vmt",
+              "sha256": "f876605956224d22a6e07f10e3e4fbbcbe8910ca8e78e9f7909781fb86dc3c3b"
+            },
+            {
+              "path": "materials/sigf/p_crit25.vmt",
+              "sha256": "27d38a34edc008b57fd9563b304b7cebd6e0109c670fd6143b635ed0e5975e94"
+            },
+            {
+              "path": "materials/sigf/p_crit26.vmt",
+              "sha256": "7e3ccb30b0b7a0e51ab49b1f93e44920d129d269e1d76044830079ab83a0c720"
+            },
+            {
+              "path": "materials/sigf/p_crit27.vmt",
+              "sha256": "cbc4b21c90cdb7012f2542e2de771ba0e29ecb9c5ce939afb7de7d53a6a494cf"
+            },
+            {
+              "path": "materials/sigf/p_crit28.vmt",
+              "sha256": "aad764d0977b395ff4e58613ccf0898c187426860dbb1eec398288e62e07fe9d"
+            },
+            {
+              "path": "materials/sigf/p_crit29.vmt",
+              "sha256": "f745c8e456903bcc73ef741411d4ebeee258ebe70da82ff5a82f20f1a7d3305a"
+            },
+            {
+              "path": "materials/sigf/p_crit30.vmt",
+              "sha256": "5a35e53266fb1d696afa256b532d54dd3f02834fb65ca1b528b3fcb590cdb1e6"
+            },
+            {
+              "path": "materials/sigf/p_dmg10.vmt",
+              "sha256": "a9234e09b0360904323774492483836c75d35b14b406be6379db0efabef27c04"
+            },
+            {
+              "path": "materials/sigf/p_dmg11.vmt",
+              "sha256": "9726ce18f37d9eaff8cb32d2a3dc3ba6e982f4da67ed1b06546425aa22e8c0ec"
+            },
+            {
+              "path": "materials/sigf/p_dmg12.vmt",
+              "sha256": "e638097278c623c18faccae7a5c0e18365e0af1176484811cfd066d8e4fc2c63"
+            },
+            {
+              "path": "materials/sigf/p_dmg13.vmt",
+              "sha256": "81c094dd75036d443b156f6f27f36f5b7362a2c8743748d8847a319accfb1147"
+            },
+            {
+              "path": "materials/sigf/p_dmg14.vmt",
+              "sha256": "eae310a08f5a83cc3df40d42179f0feb573e20be925bdad0880c8c2f40ac971f"
+            },
+            {
+              "path": "materials/sigf/p_dmg15.vmt",
+              "sha256": "9806bc829c4e53111453f411c6d34ca7838706cccc31e33abb25a9a6e838880e"
+            },
+            {
+              "path": "materials/sigf/p_dmg16.vmt",
+              "sha256": "d5bfb264f6436a0e28ee7133035958ab217340839898b4ee6808130221be27b5"
+            },
+            {
+              "path": "materials/sigf/p_dmg17.vmt",
+              "sha256": "92d3f0339fb9b2337fbe14df75d2eb3f1f10824a658e9da325b4c08d87bfa40a"
+            },
+            {
+              "path": "materials/sigf/p_dmg18.vmt",
+              "sha256": "8d0bae53d2dd3611f00d17ab18f576655e7c2feca674a29ecd4b8adb33a6bf4e"
+            },
+            {
+              "path": "materials/sigf/p_dmg19.vmt",
+              "sha256": "ebf82258a0fd93a6fb40ce84627a991bedeea75b026afdcd84f2d5885944cfeb"
+            },
+            {
+              "path": "materials/sigf/p_dmg20.vmt",
+              "sha256": "352364c069f46b20575ca409243c39a37b8ae8914429e689020a10831fadc33f"
+            },
+            {
+              "path": "materials/sigf/p_dmg21.vmt",
+              "sha256": "81afa808091a02c3e6ace0137a820a5687368d85351187d1b59b28d01e58d318"
+            },
+            {
+              "path": "materials/sigf/p_dmg22.vmt",
+              "sha256": "23ab08d23331a5487efc4877a27a228f37ea312660bfc276b38fb702d161381b"
+            },
+            {
+              "path": "materials/sigf/p_dmg23.vmt",
+              "sha256": "d1b9e1e6c883dc8db59ff725842ac3367f51620cf3daf76bcb2f0961041ccdac"
+            },
+            {
+              "path": "materials/sigf/p_dmg24.vmt",
+              "sha256": "5baadaeb6f30148fb78a57e42de37e0b1d81a532143773b8faf9e7ff9b14de01"
+            },
+            {
+              "path": "materials/sigf/p_dmg25.vmt",
+              "sha256": "b7fd782810e66cf0e7f78ce97532f51fee901ef9d54338ce0194bad8a2aca264"
+            },
+            {
+              "path": "materials/sigf/p_dmg26.vmt",
+              "sha256": "b2b81ab2e78351bbf2fbd92c449d5bd2bf6e9ed26fcfd59d256eb6c00d01c94e"
+            },
+            {
+              "path": "materials/sigf/p_dmg27.vmt",
+              "sha256": "b9327ee28eaf014c175b16a7f85df68433874bacf3efd591e08104f6d2450632"
+            },
+            {
+              "path": "materials/sigf/p_dmg28.vmt",
+              "sha256": "0a5b44e49b37ca87129c65fad12af741a16fb58d0cb357ac7eb88221f8950a7e"
+            },
+            {
+              "path": "materials/sigf/p_dmg29.vmt",
+              "sha256": "072a9e1a9667f793672e6286952e91a75876c55b43205e4d83686b878afd384f"
+            },
+            {
+              "path": "materials/sigf/p_dmg30.vmt",
+              "sha256": "ea75305be5ba97a66f489ac6affd9060a1168a2aaea5670b3cf2c255c2395154"
+            },
+            {
+              "path": "materials/sigf/p_dmg5.vmt",
+              "sha256": "8c9dc3eb662d5e7e6a5fe962bd79753e356690eeb3f2072a520cb501c2cba100"
+            },
+            {
+              "path": "materials/sigf/p_dmg6.vmt",
+              "sha256": "506da4cc58bec09609fb52f7a384b1b2ec3f0f61dc9efeb06c1e36a5aeb25367"
+            },
+            {
+              "path": "materials/sigf/p_dmg7.vmt",
+              "sha256": "375219edd72b6acb81f5baa3e0a93c8851460f82abbc6267061a7cbcba409f01"
+            },
+            {
+              "path": "materials/sigf/p_dmg8.vmt",
+              "sha256": "1b5668aab8c29bf173e7f81c1be099775961ee8b3e64f6789340b86d3a9c67e4"
+            },
+            {
+              "path": "materials/sigf/p_dmg9.vmt",
+              "sha256": "483e5bb64fecb5638517e9ebec17ca7917337ecfb97f9206afd606e05dac0dd2"
+            },
+            {
+              "path": "materials/sigf/p_flame.vmt",
+              "sha256": "fbf5caeeeacc3e89643aa542c599de80d70520d56d62d11816d04e729b29cf1a"
+            },
+            {
+              "path": "materials/sigf/p_heart.vmt",
+              "sha256": "5d57624d6504949ffd2c00549ba670ac21831b420305779b554b57930b97583e"
+            },
+            {
+              "path": "materials/sigf/p_star.vmt",
+              "sha256": "f12beb12bf7c36285558c809c1d090306e1db49dade3c51207adeb688869c66f"
+            },
+            {
+              "path": "materials/sigf/pslime_blue.vmt",
+              "sha256": "76b915be5ce65f30cf891ecbe0381c060b40d291c6185b18a031cc21fda3299d"
+            },
+            {
+              "path": "materials/sigf/pslime_blue.vtf",
+              "sha256": "2a0e174f52e3e6032e672b8b557693dc22bc6a3657f76bb1cf2279b5135daf22"
+            },
+            {
+              "path": "materials/sigf/pslime_green.vmt",
+              "sha256": "80fe179ac1213eeca402b5b64a6bd295a8f701d20e4bc54d6ef0ceb9f5674e68"
+            },
+            {
+              "path": "materials/sigf/pslime_green.vtf",
+              "sha256": "ca4e7173fb2c4c1bdba306bb825d65261720c62c9e1867b33976639056c331b8"
+            },
+            {
+              "path": "materials/sigf/pslime_purple.vmt",
+              "sha256": "ef565d9dc101072428aa99d8acd4f782e94567d26ea5efba12b5cb50572e6481"
+            },
+            {
+              "path": "materials/sigf/pslime_purple.vtf",
+              "sha256": "01b309491a231450ed2548bf973cc445a04e32bdc51ca7350463764102faac07"
+            },
+            {
+              "path": "materials/sigf/star.vmt",
+              "sha256": "a2a99eeebf0c41867b91045337ce95aa5c2b34c2758f87e04af89d0809cc8599"
+            },
+            {
+              "path": "materials/sigf/star.vtf",
+              "sha256": "0ef458d7b86f8042f569a2330173d81e41684b60d5132203c19a5cf7eb968fc5"
+            },
+            {
+              "path": "scripts/vscripts/sigf_demo.nut",
+              "sha256": "d53429fd2c6f013aaf28a11f7a3cd281cc06bec6f8f9f9a40c0ba47d26eb47ed"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mod.nut",
+              "sha256": "24835a8d0fb9ccbddd0827fcbd0ef54136b125a4c6a386988a737033fd86f3b0"
+            },
+            {
+              "path": "sound/sigf/block_break.wav",
+              "sha256": "d294d1a42e9aaa435b371ff715b3995b24febf8dcbbd60ae18ba24dae445dcf0"
+            },
+            {
+              "path": "sound/sigf/boss_roar.wav",
+              "sha256": "744686016cbedba1ca5f07842327aa7bf76bfc35c9bb26beeb31c5b53d280144"
+            },
+            {
+              "path": "sound/sigf/enemy_hit.wav",
+              "sha256": "cacdf3dfdaf5d4c61706efa900b5d3a3f20a64acd31596be43b305755ad54472"
+            },
+            {
+              "path": "sound/sigf/pickup.wav",
+              "sha256": "3305acafce77d7765ee9f3360a9f9425c40fe60e56581c95f5066bfad0919153"
+            },
+            {
+              "path": "sound/sigf/slime_hit.wav",
+              "sha256": "2a0558f666b43a1471e35674ab99d9125dfccaf6d155181b03e6e8df37cf9d6f"
+            },
+            {
+              "path": "sound/sigf/theme.wav",
+              "sha256": "a5823582f432fee53015bc48d7f59664e76f87a20a3702020b7c4da137007a63"
+            },
+            {
+              "path": "sound/sigf/throw.wav",
+              "sha256": "76f2c8370ca8dd0d3155afc1602109530d3838d1973ad225d869b9af45f02791"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-terraria-takeover/releases/download/v1.0.0/portal2-terraria-takeover.zip",
+          "sha256": "ba7fef30ea710847b303765949b809f55615aa701256c87b1e59139c8ae3393c",
+          "size": 6414842
+        },
+        {
+          "src": "portal2-terraria-takeover-game-kit.zip",
+          "dst": "{game}/sigf_terraria_takeover",
+          "unpack": true,
+          "contents": [
+            {
+              "path": "cfg/sigf_game.cfg",
+              "sha256": "6f932e25d0bed3c48efe681a7a4c43aab83f42233b55655c27e4f4e5b0950b5e"
+            },
+            {
+              "path": "cfg/sigf_rec.cfg",
+              "sha256": "e7815e54ae79bbb159a36435022750280ad2992ece2c2a9b570c6ff4db184cca"
+            },
+            {
+              "path": "gameinfo.txt",
+              "sha256": "509c58bbd5a477768b3e34f3a6dba6d9d6e7507715bb72606b841872e73f2539"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vmt",
+              "sha256": "b5b5a1f62c170477fdf0cb523b21c3da397a85b0cad470e2e8e90a61763200f4"
+            },
+            {
+              "path": "materials/sigf/kit_portal_blue.vtf",
+              "sha256": "66a14c89c2fa080aea7953d6d741f55025f339416b713aaafadd5f54d15a7ecf"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vmt",
+              "sha256": "d745e5b8629577b7ece072a1135cda1edbd9562c364e2641d45599b58853c45a"
+            },
+            {
+              "path": "materials/sigf/kit_portal_orange.vtf",
+              "sha256": "8b87f69add0d1849d8bdc06d5e1135531517150a0173d44bdefb7e293c7c9358"
+            },
+            {
+              "path": "scripts/vscripts/mapspawn.nut",
+              "sha256": "0a1139812204d68668448646e5fd2e5b931e1ddaa680c46cb132c864decd33d2"
+            },
+            {
+              "path": "scripts/vscripts/sigf_bricks.nut",
+              "sha256": "3061dc6a358642db7d716a87ca1e3f12a1f6682b61ba1db03476cb287605f0e1"
+            },
+            {
+              "path": "scripts/vscripts/sigf_idle.nut",
+              "sha256": "058ebd51ad50186353a76e92c22edc3adfdca80e2d93cc2f5c8b4234c7e0defc"
+            },
+            {
+              "path": "scripts/vscripts/sigf_lib.nut",
+              "sha256": "05dd16f6c6c6ba2ff731f3a7c5ab86f5f772bf9f47bcf7615b95b9474ec53175"
+            },
+            {
+              "path": "scripts/vscripts/sigf_mode.nut",
+              "sha256": "b2f2524f92d28a7bcc12921baebee0ad449e36db7cd9d8ff8d6de6ff57591beb"
+            },
+            {
+              "path": "scripts/vscripts/sigf_stage.nut",
+              "sha256": "6c9e841b49c906bd8b44608d30d054d07371995dfc1b03f0a593635b174e59f4"
+            }
+          ],
+          "url": "https://github.com/SIGFAI/portal2-terraria-takeover/releases/download/v1.0.0/portal2-terraria-takeover-game-kit.zip",
+          "sha256": "390142450e5f43f0ca8fea3d5ade774f6a12f50a85b4ad923e0a14cfe06085df",
+          "size": 50471
+        }
+      ]
+    }
+  ],
+  "launch": [
+    {
+      "game": "portal2",
+      "args": [
+        "-game",
+        "sigf_terraria_takeover"
+      ]
+    }
+  ],
+  "files": [
+    {
+      "name": "portal2-terraria-takeover.zip",
+      "url": "https://github.com/SIGFAI/portal2-terraria-takeover/releases/download/v1.0.0/portal2-terraria-takeover.zip",
+      "sha256": "ba7fef30ea710847b303765949b809f55615aa701256c87b1e59139c8ae3393c",
+      "size": 6414842
+    },
+    {
+      "name": "portal2-terraria-takeover-game-kit.zip",
+      "url": "https://github.com/SIGFAI/portal2-terraria-takeover/releases/download/v1.0.0/portal2-terraria-takeover-game-kit.zip",
+      "sha256": "390142450e5f43f0ca8fea3d5ade774f6a12f50a85b4ad923e0a14cfe06085df",
+      "size": 50471
+    }
+  ],
+  "source": {
+    "repo": "https://github.com/SIGFAI/portal2-terraria-takeover",
+    "license": "MIT"
+  },
+  "media": {},
+  "built_by": {
+    "agent": "SIGF",
+    "model": "claude-opus-5.5"
+  },
+  "idea_by": "team",
+  "kit": {
+    "id": "portal2",
+    "status": "draft"
+  },
+  "built_at": "2026-10-05T15:24:28.209Z",
+  "notes": [
+    "Copy this mod's files into a new folder called sigf inside your Portal 2 install, together with the kit's game folder files, then start Portal 2 with -game sigf +sv_cheats 1 +map sp_a2_catapult_intro. Slimes and bosses start coming right away."
+  ]
+}
