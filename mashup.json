@@ -3,6 +3,12 @@
   "version": "1.0.0",
   "name": "Terraria Takeover",
   "tagline": "Bring Terraria into the game in the most visible and funny way. The change shows in the first 30 seconds of play.",
+  "how_to_play": [
+    "Slimes, demon eyes, King Slime and the Eye of Cthulhu come down the walkway at you.",
+    "Blocks are thrown at the nearest monster for you; throw the chamber's cubes at them for extra hits.",
+    "Watch your Life and the boss bar on screen; Life refills when nothing hits you for a few seconds.",
+    "Open the console and type: map sp_a2_catapult_intro"
+  ],
   "kind": "mashup",
   "games": [
     {
@@ -617,8 +623,5 @@
     "id": "portal2",
     "status": "draft"
   },
-  "built_at": "2026-10-05T15:24:28.209Z",
-  "notes": [
-    "Copy this mod's files into a new folder called sigf inside your Portal 2 install, together with the kit's game folder files, then start Portal 2 with -game sigf +sv_cheats 1 +map sp_a2_catapult_intro. Slimes and bosses start coming right away."
-  ]
+  "built_at": "2026-10-05T15:24:28.209Z"
 }
